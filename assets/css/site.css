@@ -35,3 +35,7 @@ address{font-style:normal;line-height:2;color:var(--text)}
 @media(max-width:850px){.nav-shell{justify-content:center}.nav-links{width:100%}.nav-links a{flex:0 1 auto}}
 @media(max-width:540px){.nav-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.nav-links a{white-space:normal;padding:8px 5px}.media-shortcuts,.media-grid{grid-template-columns:1fr}.office-map{height:300px}.media-card img{height:auto;max-height:420px}}
 @media print{.office-map,.media-overview,.media-collection,noscript{display:none}.print-contact{display:block!important;color:#111!important}.section-intro{break-inside:avoid}.book span,.eyebrow{color:#333}}
+
+/* v2.1.1: use the supplied brand artwork without cropping or recoloring. */
+.brand-logo{display:block;width:56px;height:56px;object-fit:contain;flex:0 0 56px}
+@media(max-width:540px){.brand{display:flex;justify-content:center}.brand-logo{width:48px;height:48px;flex-basis:48px}.brand small{display:none}}

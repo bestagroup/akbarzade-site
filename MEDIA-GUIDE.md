@@ -34,9 +34,10 @@ Increment asset query versions when updating the data or scripts so cached clien
 The previously published PDF contains the superseded phone number. It is retired from the public tree in this commit; Git history retains it.
 The complete HTML resume remains and supports printing / saving as PDF from the browser, with the current appointment phone and address.
 
-## Outstanding
-The uploaded IMG_0619.png logo could not be read because the execution environment is unavailable. No substitute logo was invented or installed; the existing brand icon remains.
-Upload the exact logo to this repository (for example assets/images/logo.png) or provide it again when file access is available.
+## Brand artwork — v2.1.1
+The user-supplied assets/images/IMG_0619.png is used unchanged as the header logo and PNG favicon on all eight pages, including 404.
+The mobile header keeps the logo visible. The CSS uses object-fit: contain to preserve the artwork.
+The previous SVG favicon is no longer referenced by pages.
 
 ## Verification
 Static source checks cover page links, unique IDs, script syntax, schema JSON, new phone values and navigation.
